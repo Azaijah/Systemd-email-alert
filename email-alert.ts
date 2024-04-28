@@ -44,6 +44,8 @@ async function sendAlertEmail(config: Config): Promise<void> {
             } else {
                 console.log('Email sent: ' + info.response);
             }
+        transporter.close();
+
         });
     } catch (error) {
         console.error('Failed to send email:', error);
