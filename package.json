@@ -1,0 +1,21 @@
+{
+  "name": "systemd-email-alert",
+  "version": "1.0.0",
+  "description": "nodejs script to be ran OnFailure for Systemd Services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node email-alert.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "nodemailer": "^6.9.13"
+  }
+}

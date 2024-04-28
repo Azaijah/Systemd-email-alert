@@ -1,0 +1,9 @@
+# config.toml 
+#Remove -template
+recipientEmail = "example@example.com"
+user = "your_email@gmail.com"
+pass = "your_password"
+from = "your_email@gmail.com"
+subject = ""
+service = "Gmail"
+message = ""
